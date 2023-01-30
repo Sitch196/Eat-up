@@ -1,0 +1,39 @@
+.summary {
+  text-align: center;
+  width: 40rem;
+  width: 90%;
+  height: 10rem;
+  margin: auto;
+  margin-top: -10rem;
+  position: relative;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 14px;
+  padding: 1.2rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.summary h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.summary p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 550px) {
+  .summary h2 {
+    font-size: 1.2rem;
+  }
+  .summary p {
+    font-size: 90%;
+  }
+}
+@media (max-width: 390px) {
+  .summary h2 {
+    font-size: 1rem;
+  }
+  .summary p {
+    font-size: 80%;
+  }
+}
