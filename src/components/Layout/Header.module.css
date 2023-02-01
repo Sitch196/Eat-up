@@ -9,6 +9,7 @@
   height: 5rem;
   background-color: goldenrod;
   color: white;
+
   display: flex;
   justify-content: space-between;
   padding: 0 5rem;
@@ -30,7 +31,4 @@
   height: 100%;
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
-}
-.btn {
-  color: wheat;
 }

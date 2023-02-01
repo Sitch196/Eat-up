@@ -7,7 +7,9 @@ function Header(props) {
   return (
     <Fragment>
       <header className={classes.header}>
-        <h1>Eat Up</h1>
+        <h1>
+          EAT & <span style={{ color: "brown" }}>GO</span>{" "}
+        </h1>
         <HeaderCartButton onClick={props.onShowCart} />
       </header>
       <div className={classes["main-image"]}>

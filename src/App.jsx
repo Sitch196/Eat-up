@@ -17,7 +17,7 @@ function App() {
     <CartProvider>
       {cartIsShown && <Cart onClose={hideCartHandler} />}
       <Header onShowCart={showCartHandler} />
-      <main>
+      <main style={{ backgroundColor: "wheat" }}>
         <Meals />
       </main>
     </CartProvider>
